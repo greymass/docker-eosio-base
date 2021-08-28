@@ -18,6 +18,7 @@ RUN apt-get update && DEBIAN_FRONTEND="noninteractive" apt-get install -y --no-i
   libbz2-dev \
   libcurl4-gnutls-dev \
   libgmp3-dev \
+  libpq-dev \
   libssl-dev \
   libtool \
   libusb-1.0-0-dev \
