@@ -27,6 +27,7 @@ RUN apt-get update && DEBIAN_FRONTEND="noninteractive" apt-get install -y --no-i
   make \
   patch \
   pkg-config \
+  postgresql-server-dev-all \
   python2.7 \
   python2.7-dev \
   python3 \
