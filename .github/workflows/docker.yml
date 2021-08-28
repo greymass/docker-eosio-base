@@ -49,5 +49,5 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           build-args: |
-            NODEOS_VERSION=${{ github.event.inputs.version }}
-            NODEOS_REPOSITORY=${{ github.event.inputs.repo }}
+            EOSIO_VERSION=${{ github.event.inputs.version }}
+            EOSIO_REPOSITORY=${{ github.event.inputs.repo }}
